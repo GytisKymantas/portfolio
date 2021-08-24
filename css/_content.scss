@@ -1,0 +1,90 @@
+///// core skills
+.core-skills {
+  // height: 70vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.core-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+.core {
+  display: flex;
+  justify-content: center;
+}
+.core img {
+  width: 15rem;
+  height: 15rem;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+}
+
+////@at-root
+main {
+  // background-image: linear-gradient(rgba(155, 136, 136, 0.192)), url(../images/background.jpg);
+  // height: 70vh;
+  // background-size: contain;
+  // width:50%;
+  // display: grid;
+  // grid-template-columns: 50% 50%;
+  position: relative;
+  background: #ffce00;
+}
+
+// justify-content: space-between;
+
+.main__header {
+  // clip-path: polygon(0% 5%,100% 5%,100% 25%,0% 25%,0% 40%,100% 40%,100% 60%,0% 60%,0% 75%,100% 75%,100% 95%,0% 95%);
+  // display:absolute;
+  // left:25;
+  // top:50;
+  background-color: white;
+  height: 100vh;
+  z-index: 2;
+
+  clip-path: ellipse(50% 50% at 70% 30%);
+  // background-image: url(../images/background.jpg);
+  // background-position: center;
+  // background-size: cover;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.element-content h1 {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.element-content h2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font-weight: 400;
+}
+.element-content ul {
+  position: absolute;
+  top: 28%;
+  left: 40%;
+
+  & li {
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+  }
+}
+.element-logo {
+  position: absolute;
+  top: 53%;
+  left: 83%;
+  z-index: 50;
+  & img {
+    width: 10rem;
+    height: 10rem;
+  }
+}

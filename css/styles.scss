@@ -1,0 +1,132 @@
+@import "queries";
+@import "section";
+@import "nav";
+@import "content";
+@import "global";
+@import "gallery";
+
+@media only screen and (min-width: 1500px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .element-content h1 {
+    top: 15%;
+    left: 25%;
+  }
+  .element-content h2 {
+    top: 28%;
+    left: 50%;
+  }
+  .element-content ul {
+    top: 32%;
+    left: 43%;
+  }
+  .element-logo {
+    top: 53%;
+    left: 73%;
+  }
+}
+@media only screen and (max-width: 866px) {
+  .element-content h2 {
+    top: 43%;
+  }
+  .element-content ul {
+    top: 49%;
+  }
+}
+
+@media only screen and (max-width: 851px) {
+  .element-content h1 {
+    top: 15%;
+    left: 25%;
+  }
+  .element-content h2 {
+    top: 45%;
+  }
+  .element-content ul {
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .core-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery__wrapper {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .element-content h1 {
+    top: 15%;
+    left: 25%;
+    font-size: 5rem;
+  }
+  .element-content h2 {
+    top: 45%;
+  }
+  .element-content ul {
+    top: 50%;
+  }
+}
+@media only screen and (max-width: 509px) {
+  // .element-content h1 {
+  //   font-size: 3rem;
+  // }
+  // .element-content h2 {
+  //   top: 39%;
+  // }
+  // .element-content ul {
+  //   top: 47%;
+  // }
+}
+@media only screen and (max-width: 494px) {
+  .element-content h1 {
+    font-size: 3rem;
+  }
+  .element-content h2 {
+    top: 39%;
+  }
+  .element-content ul {
+    top: 47%;
+  }
+}
+@media only screen and (max-width: 455px) {
+  .element-content h1 {
+    font-size: 3.5rem;
+  }
+  .element-content h2 {
+  }
+  .element-content ul {
+  }
+}
+@media only screen and (max-width: 367px) {
+  html {
+    font-size: 40%;
+  }
+  .core-container {
+    grid-template-columns: 1fr;
+  }
+  .gallery__wrapper {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .element-content h1 {
+    font-size: 4rem;
+  }
+  .element-content h2 {
+    top: 36%;
+    left: 50%;
+    font-size: 1.8rem;
+  }
+  .element-content ul {
+    top: 42%;
+    left: 53%;
+    font-size: 1.8rem;
+  }
+  .element-logo {
+    top: 53%;
+    left: 63%;
+  }
+}

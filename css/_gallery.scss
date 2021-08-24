@@ -1,0 +1,14 @@
+.gallery__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.gallery__container {
+  display: flex;
+  justify-content: center;
+
+  & img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
